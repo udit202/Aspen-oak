@@ -1,5 +1,5 @@
 const t = [
-  { q: "They didn't show me houses. They listened for two years, then brought me one. It was the right one.", n: "Private Client", r: "Family Office, Singapore" },
+  { q: "They didn't show me houses. They listened for two years, then brought me one. It was the right one.", n: "Private Client", r: "Family Office, Noida" },
   { q: "An extraordinary degree of discretion. The transaction closed without a single public note.", n: "H.E. Al-K.", r: "Acquisition, Emirates Hills" },
   { q: "The most considered representation we have encountered in three decades of collecting property.", n: "Anonymous", r: "Repeat Client, Aspen" },
 ];

@@ -15,10 +15,10 @@ export function Investment() {
 
         <div className="mt-24 grid grid-cols-2 gap-y-20 lg:grid-cols-4">
           {[
-            { v: "$4.2B", l: "Lifetime transaction volume" },
+            { v: "₹ 42 Cr", l: "Lifetime transaction volume" },
             { v: "98.4%", l: "Average list-to-sale ratio" },
             { v: "37", l: "Sovereign & family-office clients" },
-            { v: "11", l: "Countries of active representation" },
+            { v: "11", l: "Countries of active representation in Noida" },
           ].map((s, i) => (
             <div key={s.l} className="border-l border-[color-mix(in_oklab,var(--gold)_30%,transparent)] pl-8">
               <div className="text-[10px] tracking-[0.4em] text-[var(--gold)]">0{i + 1}</div>

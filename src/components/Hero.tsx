@@ -68,11 +68,11 @@ export function Hero() {
                 </div>
 
                 <h3 className="mt-5 text-3xl sm:text-4xl leading-none tracking-[-0.04em] text-white">
-                  Aurelia
+                  VVIP Adresses
                 </h3>
 
                 <p className="mt-3 text-[11px] uppercase tracking-[0.28em] text-[#c8a96b]">
-                  Beverly Hills
+                  Sec 12 , Greater Noida West
                 </p>
 
                 <p className="mt-7 max-w-[260px] text-[14px] leading-[1.9] text-white/60">
@@ -83,9 +83,9 @@ export function Hero() {
                 {/* STATS */}
                 <div className="mt-8 flex items-center gap-8 border-t border-white/10 pt-7 sm:gap-10">
                   {[
-                    ["12K", "Sq.ft"],
+                    ["2 & 3", "BHK"],
                     ["7", "Suites"],
-                    ["$18M", "Value"],
+                    ["₹1.07 cr", "Value"],
                   ].map(([v, l]) => (
                     <div key={l}>
                       <div className="text-xl sm:text-2xl text-white">

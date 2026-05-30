@@ -9,6 +9,8 @@ import { Testimonials } from "@/components/Testimonials";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import { ProjectsFilm } from "@/components/ProjectsFilm";
+import { Brochure } from "@/components/Brochure";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -39,10 +41,12 @@ function Index() {
       <Residences />
       <Experience />
       <Investment />
+      {/* <ProjectsFilm /> */}
       <Testimonials />
       <Contact />
       <Footer />
       <WhatsAppCTA />
+      <Brochure />
     </main>
   );
 }

@@ -1,8 +1,8 @@
-import story from "@/assets/story.jpg";
+import story from "@/assets/About.jpeg";
 
 export function Story() {
   return (
-    <section id="story" className="relative py-40">
+    <section id="about" className="relative py-40">
       <div className="mx-auto grid max-w-[1480px] grid-cols-1 gap-16 px-8 lg:grid-cols-12 lg:gap-24">
         <div className="lg:col-span-5 lg:sticky lg:top-32 self-start">
           <p className="eyebrow"><span className="rule-gold mr-4" /> The Philosophy</p>
@@ -21,14 +21,14 @@ export function Story() {
             <p>
               Founded on a single conviction — that architecture, when given room
               to breathe, becomes a quiet luxury — Aspen Oak represents the rarest
-              residences across Dubai, the Côte d'Azur, Aspen, and the Hamptons.
+              residences across Noida .
             </p>
             <p>
               Each property in our portfolio is hand-selected. Each client, personally
               known. We move slowly, on purpose.
             </p>
             <div className="hairline-gold pt-8">
-              <div className="font-display text-2xl italic">— Mira Aldenwood, Founding Principal</div>
+              <div className="font-display text-2xl italic">— Founder of Aspen Oak</div>
             </div>
           </div>
         </div>

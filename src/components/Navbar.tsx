@@ -3,10 +3,11 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo2.png";
 
 const links = [
+  "About",
   "Residences",
-  "Experience",
+  // "Experience",
   "Investment",
-  "Journal",
+  "Gallery",
   "Contact",
 ];
 
@@ -30,23 +31,17 @@ export function Navbar() {
     <>
       {/* NAVBAR */}
       <header
-        className={`fixed inset-x-0 top-0 z-50 transition-all duration-700 ${scrolled
-          ? "glass py-4"
-          : "py-7"
-          }`}
+        className={`fixed inset-x-0 top-0 z-50 transition-all duration-700 ${
+          scrolled ? "glass py-4" : "py-7"
+        }`}
       >
         <nav className="mx-auto flex max-w-[1480px] items-center justify-between px-6 sm:px-8 lg:px-10">
-
           {/* LOGO */}
-          <a
-            href="/"
-            className="relative z-50 flex items-center gap-4"
-          >
+          <a href="/" className="relative z-50 flex items-center gap-4">
             <div
-              className={`overflow-hidden rounded-[6px] transition-all duration-700 ${scrolled
-                ? "h-9 w-9"
-                : "h-11 w-11"
-                }`}
+              className={`overflow-hidden rounded-[6px] transition-all duration-700 ${
+                scrolled ? "h-9 w-9" : "h-11 w-11"
+              }`}
             >
               <img
                 src={logo}
@@ -57,10 +52,9 @@ export function Navbar() {
 
             <div className="leading-none">
               <div
-                className={`font-display text-[15px] tracking-[0.18em] transition-colors duration-700 ${scrolled
-                  ? "text-ink"
-                  : "text-warm-white"
-                  }`}
+                className={`font-display text-[15px] tracking-[0.18em] transition-colors duration-700 ${
+                  scrolled ? "text-ink" : "text-warm-white"
+                }`}
                 style={{
                   color: scrolled
                     ? "var(--ink)"
@@ -68,9 +62,7 @@ export function Navbar() {
                 }}
               >
                 ASPEN
-                <span style={{ color: "var(--gold)" }}>
-                  {" "}OAK
-                </span>
+                <span style={{ color: "var(--gold)" }}> OAK</span>
               </div>
 
               <div
@@ -108,15 +100,16 @@ export function Navbar() {
           </ul>
 
           {/* RIGHT BALANCER */}
-          <div className="hidden md:block w-[110px]" />
+          <div className="hidden w-[110px] md:block" />
 
           {/* MOBILE TOGGLE */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className={`relative z-50 flex h-11 w-11 items-center justify-center rounded-full border transition-all duration-500 md:hidden ${scrolled
-              ? "border-black/10 bg-white/80 text-black backdrop-blur-xl"
-              : "border-white/10 bg-white/10 text-white backdrop-blur-xl"
-              }`}
+            className={`relative z-50 flex h-11 w-11 items-center justify-center rounded-full border transition-all duration-500 md:hidden ${
+              scrolled
+                ? "border-black/10 bg-white/80 text-black backdrop-blur-xl"
+                : "border-white/10 bg-white/10 text-white backdrop-blur-xl"
+            }`}
           >
             {menuOpen ? <X size={18} /> : <Menu size={18} />}
           </button>
@@ -125,10 +118,11 @@ export function Navbar() {
 
       {/* MOBILE MENU */}
       <div
-        className={`fixed left-0 top-0 z-40 h-auto w-full overflow-hidden transition-all duration-700 md:hidden ${menuOpen
-          ? "pointer-events-auto translate-y-0 opacity-100"
-          : "pointer-events-none -translate-y-10 opacity-0"
-          }`}
+        className={`fixed left-0 top-0 z-40 h-screen w-full overflow-hidden transition-all duration-700 md:hidden ${
+          menuOpen
+            ? "pointer-events-auto translate-y-0 opacity-100"
+            : "pointer-events-none -translate-y-10 opacity-0"
+        }`}
       >
         {/* BACKDROP */}
         <div className="absolute inset-0 bg-black/92 backdrop-blur-2xl" />
@@ -137,10 +131,9 @@ export function Navbar() {
         <div className="absolute right-[-80px] top-[-80px] h-[220px] w-[220px] rounded-full bg-[#c8a96b]/10 blur-[90px]" />
 
         {/* MENU BOX */}
-        <div className="relative mx-auto mt-[110px] w-[92%] max-w-[520px] rounded-[28px] border border-white/10 bg-white/[0.03] px-7 py-8 shadow-[0_20px_80px_rgba(0,0,0,0.45)] backdrop-blur-2xl">
-
+        <div className="relative mx-auto mt-[110px] flex h-[calc(100vh-130px)] w-[92%] max-w-[520px] flex-col rounded-[28px] border border-white/10 bg-white/[0.03] px-7 py-8 shadow-[0_20px_80px_rgba(0,0,0,0.45)] backdrop-blur-2xl">
           {/* LINKS */}
-          <div className="flex flex-col">
+          <div className="flex flex-1 flex-col">
             {links.map((link, index) => (
               <a
                 key={link}

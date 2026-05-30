@@ -1,11 +1,11 @@
-import p1 from "@/assets/property-1.jpg";
-import p2 from "@/assets/property-2.jpg";
-import p3 from "@/assets/property-3.jpg";
+import p1 from "@/assets/Residence-1.jpeg";
+import p2 from "@/assets/Residence-2.jpeg";
+import p3 from "@/assets/Residence-3.jpeg";
 
 const items = [
-  { img: p1, name: "Villa Maréa", place: "Cap Ferrat, France", price: "€38,500,000", spec: "6 BR · 1,420 m² · Cliffside" },
-  { img: p2, name: "The Burj Residence", place: "Downtown Dubai", price: "$22,000,000", spec: "5 BR · 980 m² · Sky Penthouse" },
-  { img: p3, name: "Aspen Pinegrove Estate", place: "Aspen, Colorado", price: "$54,000,000", spec: "8 BR · 2,310 m² · Forest" },
+  { img: p1, name: "Elite X", place: "Sector 10 ,Greater Noida West", price: "₹ 1.95 to 2.60 cr", spec: "3 BHK 1800 to 4 BHK 2640 Apartments" },
+  { img: p2, name: "Sobha", place: "Sec 36 , Greater Noida", price: "₹ 1.07 to 1.27 cr ", spec: "2 & 3 BHK Apartments" },
+  { img: p3, name: "VVIP Adresses", place: "Sec 12 , Greater Noida West", price: "₹ 1.07 to 1.27 cr", spec: "2 & 3 BHK Apartments" },
 ];
 
 export function Residences() {
@@ -19,9 +19,9 @@ export function Residences() {
               Residences of <em style={{ color: "var(--gold)" }}>consequence.</em>
             </h2>
           </div>
-          <a href="#" className="text-[11px] tracking-[0.3em] uppercase text-[var(--ink)]/70 hover:text-[var(--gold)] transition-colors">
-            View all 24 residences →
-          </a>
+          {/* <a href="#" className="text-[11px] tracking-[0.3em] uppercase text-[var(--ink)]/70 hover:text-[var(--gold)] transition-colors">
+            View all residences →
+          </a> */}
         </div>
 
         <div className="mt-20 space-y-28">

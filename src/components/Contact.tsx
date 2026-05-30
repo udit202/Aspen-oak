@@ -10,18 +10,18 @@ export function Contact() {
               <em style={{ color: "var(--gold)" }}>conversation.</em>
             </h2>
             <p className="mt-10 max-w-md text-[15px] leading-[1.9] text-[var(--ink)]/70">
-              All inquiries are received personally by a founding principal and answered within 48 hours.
+              All inquiries are received personally by a founding principal and answered within 24 hours.
               Your details remain entirely confidential.
             </p>
 
             <div className="mt-16 space-y-6 text-[13px] tracking-[0.15em] uppercase">
               <div>
-                <div className="text-[10px] text-[var(--ink)]/45 tracking-[0.4em]">Dubai · Principal Office</div>
-                <div className="mt-2">DIFC, Gate Village 11, Level 4</div>
+                <div className="text-[10px] text-[var(--ink)]/45 tracking-[0.4em]">Noida · Greater Noida</div>
+                <div className="mt-2">Yamuna expressway</div>
               </div>
               <div>
-                <div className="text-[10px] text-[var(--ink)]/45 tracking-[0.4em]">Discreet Line</div>
-                <div className="mt-2">+971 4 000 8 880</div>
+                <div className="text-[10px] text-[var(--ink)]/45 tracking-[0.4em]">Contact Number</div>
+                <div className="mt-2">+91 9560044930</div>
               </div>
             </div>
           </div>

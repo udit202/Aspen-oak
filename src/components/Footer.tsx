@@ -1,10 +1,10 @@
 import logo from "@/assets/logo2.png";
 
 const navLinks = [
+  "About",
   "Residences",
-  "Experience",
   "Investment",
-  "Journal",
+  "Gallery",
   "Contact",
 ];
 
@@ -85,10 +85,20 @@ export function Footer() {
                   </div>
 
                   <a
-                    href="#"
+
+                  target="_blank"
+                    href="mailto:aspenoakrealty@gmail.com"
                     className="mt-2 inline-block text-[15px] text-white/70 transition-colors duration-500 hover:text-white"
                   >
-                    hello@aspenoak.com
+                     aspenoakrealty@gmail.com
+                  </a>
+                  
+                  <a
+                  target="_blank"
+                    href="mailto:info@aspenoakrealty.com"
+                    className="mt-2 inline-block text-[15px] text-white/70 transition-colors duration-500 hover:text-white"
+                  >
+                    info@aspenoakrealty.com
                   </a>
                 </div>
 
@@ -101,7 +111,7 @@ export function Footer() {
                     href="#"
                     className="mt-2 inline-block text-[15px] text-white/70 transition-colors duration-500 hover:text-white"
                   >
-                    +1 (800) 000-0000
+                    +91 9560044930
                   </a>
                 </div>
               </div>
@@ -130,7 +140,7 @@ export function Footer() {
             {navLinks.map((link) => (
               <a
                 key={link}
-                href="#"
+                href={`#${link.toLowerCase()}`}
                 className="group relative overflow-hidden text-[11px] uppercase tracking-[0.38em] text-white/40 transition-colors duration-500 hover:text-white"
               >
                 <span className="relative inline-block transition-transform duration-500 group-hover:translate-x-1">
