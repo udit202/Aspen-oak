@@ -1,11 +1,17 @@
-import p1 from "@/assets/Residence-1.jpeg";
-import p2 from "@/assets/Residence-2.jpeg";
-import p3 from "@/assets/Residence-3.jpeg";
+import p1 from "@/assets/Project-1.jpg";
+import p2 from "@/assets/Project-2.jpg";
+import p3 from "@/assets/Project-3.jpg";
+import p4 from "@/assets/Residence-1.jpeg";
+import p5 from "@/assets/Residence-2.jpeg";
+import p6 from "@/assets/Residence-3.jpeg";
 
 const items = [
-  { img: p1, name: "Elite X", place: "Sector 10 ,Greater Noida West", price: "₹ 1.95 to 2.60 cr", spec: "3 BHK 1800 to 4 BHK 2640 Apartments" },
-  { img: p2, name: "Sobha", place: "Sec 36 , Greater Noida", price: "₹ 1.07 to 1.27 cr ", spec: "2 & 3 BHK Apartments" },
-  { img: p3, name: "VVIP Adresses", place: "Sec 12 , Greater Noida West", price: "₹ 1.07 to 1.27 cr", spec: "2 & 3 BHK Apartments" },
+  { img: p1, name: "Eldeco Group", place: "Sector 76 , Noida", price: "₹ 1.95 to 2.60 cr", spec: "6 Bedrooms, 3 Bathrooms, 2 Garages, 720 sq.ft." },
+  { img: p2, name: "Nirala Estate", place: "Sector 78 , Noida", price: "₹ 1.07 to 1.27 cr ", spec: "6 Bedrooms, 3 Bathrooms, 2 Garages, 720 sq.ft." },
+  { img: p3, name: "SKA Orion", place: "GH-01 A/2 , Sector 143B , Noida", price: "₹ 1.07 to 1.27 cr", spec: "6 Bedrooms, 3 Bathrooms, 2 Garages, 720 sq.ft." },
+  { img: p4, name: "Arihant Adobe", place: "Sector 10 , Noida Extension", price: "₹ 1.07 to 1.27 cr", spec: "6 Bedrooms, 3 Bathrooms, 2 Garages, 720 sq.ft." },
+  { img: p5, name: "Fusion Rivuletq", place: "Sector 12 , Noida Extension", price: "₹ 1.07 to 1.27 cr", spec: "6 Bedrooms, 3 Bathrooms, 2 Garages, 720 sq.ft." },
+  { img: p6, name: "Steller One Phase 3", place: "GH-09, Sector-1, Greater Noida West", price: "₹ 1.07 to 1.27 cr", spec: "6 BHK 1800 sq.ft." },
 ];
 
 export function Residences() {
