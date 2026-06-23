@@ -85,20 +85,10 @@ export function Footer() {
                   </div>
 
                   <a
-
-                  target="_blank"
-                    href="mailto:aspenoakrealty@gmail.com"
+                    href="#"
                     className="mt-2 inline-block text-[15px] text-white/70 transition-colors duration-500 hover:text-white"
                   >
-                     aspenoakrealty@gmail.com
-                  </a>
-                  
-                  <a
-                  target="_blank"
-                    href="mailto:info@aspenoakrealty.com"
-                    className="mt-2 inline-block text-[15px] text-white/70 transition-colors duration-500 hover:text-white"
-                  >
-                    info@aspenoakrealty.com
+                    hello@aspenoak.com
                   </a>
                 </div>
 

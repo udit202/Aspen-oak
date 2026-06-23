@@ -81,7 +81,7 @@ export function Hero() {
                 </p>
 
                 {/* STATS */}
-                <div className="mt-8 flex items-center gap-8 border-t border-white/10 pt-7 sm:gap-10">
+                {/* <div className="mt-8 flex items-center gap-8 border-t border-white/10 pt-7 sm:gap-10">
                   {[
                     ["2 & 3", "BHK"],
                     ["7", "Suites"],
@@ -97,7 +97,7 @@ export function Hero() {
                       </div>
                     </div>
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
